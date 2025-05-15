@@ -48,18 +48,18 @@ I fixed spelling mistakes in the Source Institution column. I removed duplicate 
 3. Fixing Data Formats
 I changed all money columns to proper currency format for consistent analysis. I converted dates from general format to date format to enable time-based analysis. I made sure all numbers used the same format throughout the dataset.
 These cleaning steps helped make the data accurate and ready for analysis.
-![](https://github.com/PamilerinOlaiya1/WiLogistics-Financial-Analysis/blob/main/Monniepoint%20Cleaned%20file.jpg)
+![](https://github.com/PamilerinOlaiya1/WiLogistics-Financial-Analysis/blob/main/Sample_data/Monniepoint%20Cleaned%20file.jpg)
 
 ## Exploratory Data Analysis
 ### Analysis Approach
 ### SQL Query Analysis
 I wrote SQL queries to extract key insights from the cleaned data. These queries helped me identify transaction patterns, calculate important financial metrics, and segment the data in meaningful ways. I used SQL to determine the most frequent transaction types, identify top beneficiaries by transaction amount, and analyze spending patterns across different time periods.
-![](https://github.com/PamilerinOlaiya1/WiLogistics-Financial-Analysis/blob/main/Moniepoint%20queries%20SC.jpg)
+![](https://github.com/PamilerinOlaiya1/WiLogistics-Financial-Analysis/blob/main/sql_queries/Moniepoint%20queries%20SC.jpg)
 
 ### Visualization with Google Looker Studio
 After extracting the data through SQL, I imported the results into Google Looker Studio for visualization. I created interactive dashboards that displayed transaction trends over time, monthly credit and debit comparisons, and distribution of spending across various categories. This visual representation made it easier to identify patterns in WiLogistics' financial data.
-![](https://github.com/PamilerinOlaiya1/WiLogistics-Financial-Analysis/blob/main/Moniepointlooker1.jpg) , ![](https://github.com/PamilerinOlaiya1/WiLogistics-Financial-Analysis/blob/main/Moniepointlooker2.jpg),
-![](https://github.com/PamilerinOlaiya1/WiLogistics-Financial-Analysis/blob/main/Moniepointlooker3.jpg)
+![](https://github.com/PamilerinOlaiya1/WiLogistics-Financial-Analysis/blob/main/dashboard/Moniepointlooker1.jpg) , ![](https://github.com/PamilerinOlaiya1/WiLogistics-Financial-Analysis/blob/main/dashboard/Moniepointlooker2.jpg),
+![](https://github.com/PamilerinOlaiya1/WiLogistics-Financial-Analysis/blob/main/dashboard/Moniepointlooker3.jpg)
 
 ## Insights
 1. The Total number of transactions were 1,573 with only 17 reversals which is 1.08% of total transactions and this shows strong accuracy in transaction processing.
